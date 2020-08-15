@@ -1,0 +1,23 @@
+Déroulement réalisation du site :
+
+-Navbar fixe : croix Windows (sert de retour à l'accueil), icones de bureautiques
+
+-Accueil : photo pixellisée, cubes style Tetris
+
+	* en + : animation des cubes
+
+-Expériences Pro : "cubes de constructions" qui comprend des Gifs en rapport avec mes exp pro.
+
+-Compétences : Flip Card en mode "Pokémon" qui se retourne, compétences rassembler sous plusieurs catégories.
+
+-Projets : présenter sous forme de Polaroid
+
+-Formation : Ambiance Game Boy Color et ses jeux.
+
+-A propos : CV
+
+-Contact : Fenêtre Pop-up
+
+
+	* ajouter des animations en javascript
+	* changer "souris" par emoji Invader
