@@ -40,22 +40,17 @@ iframe{
     display: flex;
     margin: 4% auto 0 auto;
     max-width: 950px;
-
-
-}
-.games{
-    text-align: center;
 }
 
 .game{
- 
+    margin-top:5%;
     max-width: 200px;
-    
-
 }
-
+.gameboy{
+    padding-right: 5%;
+}
 .nintendo{
-    margin-left:2%;
+  
     max-width: 300px;
 }
 @media screen and (max-width:600px){
@@ -63,4 +58,34 @@ iframe{
         max-width:100%;
     }
 }
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.projects{
+    margin-top:3%;
+    text-align: center;
 
+}
+.projects>p{
+    margin-top: 5%;
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.project{
+    height: 550px;
+    width: auto;
+    margin: 3% 4% 3% 4%;
+}
