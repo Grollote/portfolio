@@ -1,0 +1,50 @@
+/*Visuel de la page principale*/
+.main{
+    background-image:url(../pictures/background.jpg);
+    background-repeat: repeat;
+    padding-bottom: 5%;
+    display: block;
+}
+h1{
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+    text-align:center;
+    text-shadow: rgb(239, 143, 252) 1px 1px,  rgb(239, 143, 252) -1px 1px,  rgb(239, 143, 252) -1px -1px,  rgb(239, 143, 252) 1px -1px;
+}
+p{
+    font-family:'Exo 2', sans-serif;
+    color: white;
+    text-align:center;
+    padding-top: 2%;
+}
+/*Agencement du plateau de jeu*/
+#memory{
+    background-color: rgb(44, 8, 85);
+    border-radius: 30px;
+    width:930px;
+    height:650px;
+    margin: auto;
+    padding: 20px;
+    display:grid;
+    grid-template-columns:repeat(6,150px);
+    grid-gap: 10px;
+}
+img{
+    width:80%;
+}
+
+/*Disparition de la carte*/
+.span{
+    display: inline-block;
+    width:120px;
+}
+
+/*Musique*/
+.son{
+    text-align: center;
+}
+button{
+    font-family:'Exo 2', sans-serif;
+    color: rgb(44, 8, 85);
+    border-radius: 3px;
+}
