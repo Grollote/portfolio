@@ -10,12 +10,15 @@ body{
 
 .welcome{
     margin-top: 5%;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Fira Code', monospace;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 h1, h4{
-    color: purple;
-    text-align: justify;
+    color: rgb(198, 9, 223);
+    font-family: 'Press Start 2P', cursive ;
+    text-shadow: 2px 2px #1cbcfc;
 }
 .container{
     margin-left: auto;
@@ -32,6 +35,32 @@ iframe{
     font-family: 'Fira Code 300', monospace;
     font-size: 10px;
 }
+.cursus{
+
+    display: flex;
+    margin: 4% auto 0 auto;
+    max-width: 950px;
 
 
+}
+.games{
+    text-align: center;
+}
+
+.game{
+ 
+    max-width: 200px;
+    
+
+}
+
+.nintendo{
+    margin-left:2%;
+    max-width: 300px;
+}
+@media screen and (max-width:600px){
+    .gameboy, .games{
+        max-width:100%;
+    }
+}
 
