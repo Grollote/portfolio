@@ -80,6 +80,10 @@ iframe{
    margin-left: auto;
     display: flex;
 }
+.project{
+    height: 300px;
+    width: auto;
+}
 
 
 
@@ -207,19 +211,25 @@ iframe{
     background-image: url(../pictures/form.png);
     background-repeat:no-repeat;
    /* background-color: rgba(252, 0, 168, 0.774);*/
-    height:850px;
-    width: 1250px;
+    height: 596px;
+    width: 919px;
     margin-left: auto;
     margin-right: auto;
 }
 .formulaire{
   /* background-color: rgba(126, 252, 0, 0.541);*/
-    padding-top:12%;
-    padding-bottom: 2%;
+    padding-top:7%;
+
     margin-left: 6%;
     margin-right: 6%;
+    font-size: 0.8em;
 }
 .rgpd{
     font-family: 'Press Start 2P', cursive ;
+}
+
+.btn{
+    color:white;
+    background-color: grey;
 }
   
