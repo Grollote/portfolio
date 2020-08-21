@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Fira Code', monospace;
+    background:linear-gradient(rgb(253, 169, 121) 0%, rgb(157, 253, 221) 10% 30%, rgb(228, 128, 253) 50% 70%, rgb(228, 128, 253) 90% 100%);
+
+     /*linear-gradient(rgb(121, 227, 253) 15%, rgb(116, 255, 209) 10%, rgb(131, 243, 137) 50%, rgb(228, 128, 253) 75%,rgb(121, 227, 253) 25%);;*/
 
 
 }
@@ -206,6 +209,14 @@ iframe{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+
+
+
+
+  
+
+
+
 .new-message{
    
     background-image: url(../pictures/form.png);
@@ -233,3 +244,7 @@ iframe{
     background-color: grey;
 }
   
+
+
+
+

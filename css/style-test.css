@@ -1,0 +1,97 @@
+/*body{
+    background-color:rgba(255, 0, 0, 0.483);
+}
+.card-wrapper{
+    
+    perspective: 1000px;
+}
+
+.content{
+    position: relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transition:transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 1px 1px 12px #555;
+   
+}
+.card-wrapper:hover .content {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+.face-front, .face-back{
+   position: absolute;
+   width: 100%;
+   height: 100%; 
+   background-color:#fff;
+   color: black;
+}
+
+.face-back>p{
+    height: 335px;
+    width: 210px;
+    margin-top:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 4px 4px 4px;
+    text-align: justify;
+   background-color: rgb(241, 241, 241);
+    transform: rotateY(180deg);
+    font-family: 'Fira Code 300', monospace;
+    font-size:12px;
+}
+p{
+   
+}
+
+.name{
+    font-family: 'Faustina', serif;
+}
+
+.texte{
+    font-family: 'Asap', sans-serif;
+}
+*/
+
+.card-wrapper{
+    height:400px;
+    width:247px;
+    perspective: 1000px;
+}
+
+.content{
+    position: relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transition:transform 0.8s;
+    transform-style: preserve-3d;
+   
+}
+.card-wrapper:hover .content {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+.face-front, .face-back{
+   position: absolute;
+   width: 100%;
+   height: 100%; 
+   background-color:#fff;
+   color: black;
+}
+.card-body{
+    background-color: rgb(235, 235, 235);
+    height:400px;
+    width:247px;
+    font-family: 'Fira Code 300', monospace;
+    font-size: 12px;
+}
+
+.face-back{
+    transform: rotateY(180deg);
+}
+
