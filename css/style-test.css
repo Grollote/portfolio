@@ -84,14 +84,21 @@ p{
    color: black;
 }
 .card-body{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(240, 240, 240);
     height:400px;
     width:247px;
     font-family: 'Fira Code 300', monospace;
     font-size: 12px;
+    text-align: left;
+    text-decoration: none;
 }
 
 .face-back{
     transform: rotateY(180deg);
 }
 
+.picto{
+    height: 30px;
+    width: auto;
+    margin: 5px 5px 5px 5px;
+}
