@@ -2,16 +2,15 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Fira Code', monospace;
-    background:linear-gradient( rgb(157, 253, 221) 10% 25%, rgb(228, 128, 253) 30% 35%, rgb(228, 128, 253) 35% 45%,  rgb(253, 188, 128) 48% 63%,  rgb(253, 138, 223) 68% 78%, rgb(138, 205, 253) 80% 100%);
-
-     /*linear-gradient(rgb(121, 227, 253) 15%, rgb(116, 255, 209) 10%, rgb(131, 243, 137) 50%, rgb(228, 128, 253) 75%,rgb(121, 227, 253) 25%);;*/
-
-
+    background:linear-gradient( rgb(103, 226, 253) 2% 12%, rgb(157, 253, 221) 15% 23%, rgb(228, 128, 253) 27% 36%,  rgb(253, 188, 128) 44% 48%,  rgb(253, 188, 237) 53% 59%, rgb(138, 205, 253) 70% 84%,  rgb(103, 226, 253) 87% 100%) ;
 }
+
+/*NAVBAR*/
 .navbar{
-    background-color:rgb(189, 192, 194);
+    background-color:rgb(181, 182, 193);
 }
 
+/*WELCOME*/
 .welcome{
     margin-top: 5%;
     font-family: 'Fira Code', monospace;
@@ -25,6 +24,12 @@ h1, h4{
     font-family: 'Press Start 2P', cursive ;
     text-shadow: 2px 2px #1cbcfc;
 }
+.gif{
+    width: 100%;
+    height:  auto;
+}
+
+/*PROFESSIONNAL EXPERIENCES*/
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -40,13 +45,14 @@ iframe{
     font-family: 'Fira Code 300', monospace;
     font-size: 10px;
 }
-.cursus{
 
+/*STUDIES*/
+.cursus{
     display: flex;
     margin: 4% auto 0 auto;
     max-width: 950px;
+    margin-top:6%;
 }
-
 .game{
     margin-top:5%;
     max-width: 200px;
@@ -55,7 +61,6 @@ iframe{
     padding-right: 5%;
 }
 .nintendo{
-  
     max-width: 300px;
 }
 @media screen and (max-width:600px){
@@ -78,6 +83,45 @@ iframe{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+
+/*SKILLS*/
+#skills{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 4%;
+    text-align: center;
+    color: white;
+}
+h5{
+    font-family: 'Press Start 2P', cursive ;
+}
+#design{
+    background-color: rgba(233, 203, 255, 0.598);
+    margin: 4px 10px 4px 10px;
+    padding: 0px 10px 0px 10px;
+}
+#dev{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
+#database{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
+#network{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
+#versioning{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
+
+/*PROJECTS*/
 .projects{
     margin-top:5%;
    margin-right: auto;
@@ -88,10 +132,6 @@ iframe{
     height: 300px;
     width: auto;
 }
-
-
-
-
 .memory{
     margin-left: auto;
     margin-right: auto;
@@ -128,15 +168,12 @@ iframe{
     text-align: initial;
     color: white;
 }
-
-
 .card-wrapper{
     height:400px;
     width:247px;
     perspective: 1000px;
     
 }
-
 .content{
     position: relative;
     width:100%;
@@ -144,13 +181,11 @@ iframe{
     text-align:center;
     transition:transform 0.8s;
     transform-style: preserve-3d;
-   
 }
 .card-wrapper:hover .content {
     transform: rotateY(180deg);
     transition: 1s;
 }
-
 .face-front, .face-back{
    position: absolute;
    width: 100%;
@@ -167,31 +202,27 @@ iframe{
     text-align: left;
     text-decoration: none;
 }
-
 .face-back{
     transform: rotateY(180deg);
 }
-
 .picto{
     height: 30px;
     width: auto;
     margin: 5px 5px 5px 5px;
 }
 
+/*SEND A MESSAGE*/
 .new-message{
-   
     background-image: url(../pictures/form.png);
     background-repeat:no-repeat;
-   /* background-color: rgba(252, 0, 168, 0.774);*/
     height: 596px;
     width: 919px;
+    margin-top:4%;
     margin-left: auto;
     margin-right: auto;
 }
 .formulaire{
-  /* background-color: rgba(126, 252, 0, 0.541);*/
     padding-top:7%;
-
     margin-left: 6%;
     margin-right: 6%;
     font-size: 0.8em;
@@ -199,55 +230,18 @@ iframe{
 .rgpd{
     font-family: 'Press Start 2P', cursive ;
 }
-
 .btn{
     color:white;
     background-color: grey;
 }
 
-#skills{
-    display: flex;
-    margin-top: 5%;
-    margin-left: 4%;
-    text-align: center;
-    color: white;
-}
-h5{
-    font-family: 'Press Start 2P', cursive ;
-}
-#design{
-    background-color: rgba(233, 203, 255, 0.598);
-    margin: 4px 10px 4px 10px;
-    padding: 0px 10px 0px 10px;
-}
-#dev{
-    background-color: rgba(233, 203, 255, 0.598);
-    padding: 0px 10px 0px 10px;
-    margin: 4px 4px 4px 4px;
-}
-#database{
-    background-color: rgba(233, 203, 255, 0.598);
-    padding: 0px 10px 0px 10px;
-    margin: 4px 4px 4px 4px;
-}
-#network{
-    background-color: rgba(233, 203, 255, 0.598);
-    padding: 0px 10px 0px 10px;
-    margin: 4px 4px 4px 4px;
-}
-#versioning{
-    background-color: rgba(233, 203, 255, 0.598);
-    padding: 0px 10px 0px 10px;
-    margin: 4px 4px 4px 4px;
-}
-
 /*ABOUT*/
 .about{
-    margin: 6% 4% 6% 8%;
+    margin: 9% 4% 4% 8%;
     display: flex;
 }
 .about>p{
-  margin: 10% 4% 10% 4%;
+  margin: 10% 4% 5% 4%;
   color: white;
 }
 a{
@@ -256,4 +250,9 @@ a{
 }
 a:hover{
     color:rgb(231, 0, 104);
+}
+.end{
+    color: rgb(198, 9, 223);
+    font-family: 'Press Start 2P', cursive ;
+    text-align: center;
 }
