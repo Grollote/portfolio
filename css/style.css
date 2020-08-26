@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Fira Code', monospace;
-    background:linear-gradient(rgb(253, 169, 121) 0%, rgb(157, 253, 221) 10% 30%, rgb(228, 128, 253) 50% 70%, rgb(228, 128, 253) 90% 100%);
+    background:linear-gradient( rgb(157, 253, 221) 10% 25%, rgb(228, 128, 253) 30% 35%, rgb(228, 128, 253) 35% 45%,  rgb(253, 188, 128) 48% 63%,  rgb(253, 138, 223) 68% 78%, rgb(138, 205, 253) 80% 100%);
 
      /*linear-gradient(rgb(121, 227, 253) 15%, rgb(116, 255, 209) 10%, rgb(131, 243, 137) 50%, rgb(228, 128, 253) 75%,rgb(121, 227, 253) 25%);;*/
 
@@ -18,6 +18,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    height:40%;
 }
 h1, h4{
     color: rgb(198, 9, 223);
@@ -128,9 +129,7 @@ iframe{
     color: white;
 }
 
-.projects{
-    background-color: white;
-}
+
 .card-wrapper{
     height:400px;
     width:247px;
@@ -205,8 +204,56 @@ iframe{
     color:white;
     background-color: grey;
 }
-  
 
+#skills{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-align: center;
+    color: white;
+}
+h5{
+    font-family: 'Press Start 2P', cursive ;
+}
+#design{
+    background-color: rgba(233, 203, 255, 0.598);
+    margin: 4px 10px 4px 10px;
+    padding: 0px 10px 0px 10px;
+}
+#dev{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
+#database{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
+#network{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
+#versioning{
+    background-color: rgba(233, 203, 255, 0.598);
+    padding: 0px 10px 0px 10px;
+    margin: 4px 4px 4px 4px;
+}
 
-
-
+/*ABOUT*/
+.about{
+    margin: 6% 4% 6% 8%;
+    display: flex;
+}
+.about>p{
+  margin: 10% 4% 10% 4%;
+  color: white;
+}
+a{
+    text-decoration: none;
+    color:rgb(101, 101, 101);
+}
+a:hover{
+    color:rgb(231, 0, 104);
+}
