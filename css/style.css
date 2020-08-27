@@ -7,7 +7,7 @@ body{
 
 /*NAVBAR*/
 .navbar{
-    background-color:rgb(181, 182, 193);
+    background-color:rgb(206, 206, 206);
 }
 
 /*WELCOME*/
@@ -23,6 +23,9 @@ h1, h4{
     color: rgb(198, 9, 223);
     font-family: 'Press Start 2P', cursive ;
     text-shadow: 2px 2px #1cbcfc;
+}
+.presentation{
+    color: white;
 }
 .gif{
     width: 100%;
@@ -68,6 +71,7 @@ iframe{
         max-width:100%;
     }
 }
+/*effet*/
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -124,8 +128,8 @@ h5{
 /*PROJECTS*/
 .projects{
     margin-top:5%;
-   margin-right: auto;
-   margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
 }
 .project{
@@ -168,11 +172,11 @@ h5{
     text-align: initial;
     color: white;
 }
+/*flip-card*/
 .card-wrapper{
     height:400px;
     width:247px;
     perspective: 1000px;
-    
 }
 .content{
     position: relative;
@@ -244,15 +248,17 @@ h5{
   margin: 10% 4% 5% 4%;
   color: white;
 }
+.end{
+    color: rgb(198, 9, 223);
+    font-family: 'Press Start 2P', cursive ;
+    text-shadow: 2px 2px #1cbcfc;
+    text-align: center;
+}
+/*other*/
 a{
     text-decoration: none;
     color:rgb(101, 101, 101);
 }
 a:hover{
     color:rgb(231, 0, 104);
-}
-.end{
-    color: rgb(198, 9, 223);
-    font-family: 'Press Start 2P', cursive ;
-    text-align: center;
 }
